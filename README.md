@@ -1,5 +1,10 @@
 ## PHP_SUS
 PHP Simple Managable Url Shortener CRUD(Create, Read, Update, Delete)
+<p>Demo site: https://url.craftverse.shop</p>
+
+> Demo creds,
+> Username: `guest`
+> Password: `guest`
 
 ## How to setup?
 1. Import the `url.sql` to your phpmyadmin/mysql database
