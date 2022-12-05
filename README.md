@@ -13,6 +13,18 @@ PHP Simple Managable Url Shortener CRUD(Create, Read, Update, Delete)
 4. Login using default creds Username: `ninja` Password: `ninja123`
 #### Note: In changing password you need to md5 hash it like this `ninja_linkz:new_password`
 
+## How does it work?
+if you download this repository and go to the folder named `z` you will see a file named `.htaccess` and below are the content inside that `.htaccess`
+
+#### pls try/visit the demo site provided for further insight.
+
+```
+RewriteEngine On
+RewriteCond $1 !^(index\.php|images|robots\.txt)
+RewriteRule ^(.*)$ ./index.php?code=$1 [L]
+```
+this means the `.htaccess` forward any subdirectory before /z/ subdirectory from the url to `index.php?code=` to be read as a code.
+
 ## Preview
 > ## **Login**
 ![img](https://github.com/abalesluke/abalesluke/blob/main/images/url_login.png?raw=true)
