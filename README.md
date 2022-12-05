@@ -13,7 +13,7 @@ PHP Simple-managable Url Shortener | CRUD(Create, Read, Update, Delete)
 4. Login using default creds Username: `ninja` Password: `ninja123`
 #### Note: In changing password you need to md5 hash it like this `ninja_linkz:new_password`
 
-## How does it work?
+## How does shortener works without seeing parameter from url?
 if you download this repository and go to the folder named `z` you will see a file named `.htaccess` and below are the content inside that `.htaccess`
 
 ```
