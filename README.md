@@ -1,5 +1,5 @@
 ## PHP_SUS
-PHP Simple Managable Url Shortener CRUD(Create, Read, Update, Delete)
+PHP Simple-managable Url Shortener | CRUD(Create, Read, Update, Delete)
 <p>Demo site: https://url.craftverse.shop</p>
 
 > Demo creds,
