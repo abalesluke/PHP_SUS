@@ -16,14 +16,15 @@ PHP Simple Managable Url Shortener CRUD(Create, Read, Update, Delete)
 ## How does it work?
 if you download this repository and go to the folder named `z` you will see a file named `.htaccess` and below are the content inside that `.htaccess`
 
-#### pls try/visit the demo site provided for further insight.
-
 ```
 RewriteEngine On
 RewriteCond $1 !^(index\.php|images|robots\.txt)
 RewriteRule ^(.*)$ ./index.php?code=$1 [L]
 ```
 this means the `.htaccess` forward any subdirectory before /z/ subdirectory from the url to `index.php?code=` to be read as a code.
+
+#### pls try/visit the demo site provided for further insight.
+<hr>
 
 ## Preview
 > ## **Login**
