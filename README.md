@@ -21,7 +21,7 @@ RewriteEngine On
 RewriteCond $1 !^(index\.php|images|robots\.txt)
 RewriteRule ^(.*)$ ./index.php?code=$1 [L]
 ```
-this means the `.htaccess` forward any subdirectory before /z/ subdirectory from the url to `index.php?code=` to be read as a code.
+this means that using `.htaccess` to forward any subdirectory before /z/ subdirectory from the url to `index.php?code=` to be read as a code.
 
 #### pls try/visit the demo site provided for further insight.
 <hr>
