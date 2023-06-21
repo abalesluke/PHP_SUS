@@ -1,4 +1,5 @@
-## PHP_SUS
+# Check the newer version: (https://github.com/abalesluke/SMUS)
+## PHP_SUS (Depricated)
 PHP Simple-managable Url Shortener | CRUD(Create, Read, Update, Delete)
 <p>Demo site: https://url.craftverse.shop</p>
 
